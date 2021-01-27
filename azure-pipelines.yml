@@ -36,5 +36,5 @@ steps:
 
 - task: PublishTestResults@2
   inputs:
-    testResultsFormat: 'NUnit'
-    testResultsFiles: '**/*.trx'
+    testResultsFormat: 'VSTest'
+    testResultsFiles: '**/TEST-*.trx'
